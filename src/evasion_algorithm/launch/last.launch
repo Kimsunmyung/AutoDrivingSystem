@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="morai_edu" type="SPATnode.py" name="spat_node" output = "screen"/>
+    <node pkg="morai_edu" type="global_path_planning.py" name="stoplane"/>
+    <node pkg="morai_edu" type="imu_parser.py" name="gps_imu_parser"/>
+</launch>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<launch>
+        <!-- <node pkg="gps_c94_m8p" name="gps_c94_m8p" type="gpsdrv.py" args="ttyACM0 38400"/> -->
+        <node pkg="ublox_c94_m8p" name="odom_node" type="BJ_odom.py"/>
+
+
+        <node pkg="cardriver" name="gilbot_r1" type="cardrv.py"/>
+        <!-- <node pkg="ublox_c94_m8p" name="path_pub" type="readPath.py"/> -->
+        <!-- <node pkg="ublox_c94_m8p" name="pure_pursuit" type="8_1.py"/> -->
+
+
+        <!-- <include file="/home/nvidia/catkin_ws/src/ntrip_ros/launch/ntrip_ros.launch"/> -->
+        <!-- <node pkg="ublox_c94_m8p" name="utm_node" type="BJ_gps_utm_changer.py"/> -->
+        <!-- <node pkg="ublox_c94_m8p" name="gps_node" type="BJ_gps.py"/> -->
+        <!-- <node pkg="ublox_c94_m8p" name="imu_node" type="BJ_imu.py" args="ttyUSB0 115200"/> -->
+        <!-- <node pkg="ublox_gps" name="odom_node" type="BJ_odom.py" output="screen"/> -->
+        <!-- <include file="/home/nvidia/catkin_ws/src/ublox_f9p/ublox_gps/launch/ublox_device.launch"/> -->
+</launch>

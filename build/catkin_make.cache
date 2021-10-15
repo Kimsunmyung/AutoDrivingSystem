@@ -1,0 +1,2 @@
+BJ_msgs:cardriver:evasion_algorithm:gps_c94_m8p:morai_msgs:ntrip_ros:rtcm_msgs:topic_tutorial:ublox_c94_m8p:ublox_f9p/ublox:ublox_f9p/ublox_gps:ublox_f9p/ublox_msgs:ublox_f9p/ublox_serialization
+-DCATKIN_DEVEL_PREFIX=/home/nvidia/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/nvidia/catkin_ws/install -G Unix Makefiles

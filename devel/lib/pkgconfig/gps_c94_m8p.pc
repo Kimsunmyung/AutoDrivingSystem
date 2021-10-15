@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: gps_c94_m8p
+Description: Description of gps_c94_m8p
+Version: 0.0.1
+Cflags: -I/home/nvidia/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,20 @@
+<launch>
+    <node pkg="evasion_algorithm" type="state_Lattice.py" name="state_lattice_planner" output = "screen"/>
+    <node pkg="evasion_algorithm" type="vehicleSpec.py" name="vehicle_spec_load"/>
+    <node pkg="evasion_algorithm" type="wayObstacle.py" name="obj_filter" output = "screen"/>
+    <node pkg="morai_edu" type="longitudinal_ctr.py" name="pure_pursuit"/>
+    <node pkg="morai_edu" type="imu_parser.py" name="gps_imu_parser"/>
+    <node pkg="morai_edu" type="SPATnode.py" name="spat_node" output = "screen"/>
+    <node pkg="morai_edu" type="global_path_planning.py" name="stoplane"/>
+    <!-- <node pkg="morai_edu" type="h_acc.py" name="hcc_planing"/> -->
+    <node pkg="rviz" type="rviz" name="rviz" args="-d $(find morai_edu)/rviz/fuck.rviz" />
+    <!--
+
+    <node pkg="morai_edu" type="local_path_planning.py" name="localPathPlanning"/>
+            c_global -> edu
+            global -> evasion
+            h_acc -> evasion
+            acc -> edu
+        
+    -->
+</launch>

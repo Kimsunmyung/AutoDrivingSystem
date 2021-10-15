@@ -1,0 +1,43 @@
+self.LEFT_STICK_UPDOWN = 1
+self.LEFT_STICK_LEFTRIGHT = 0
+self.RIGHT_STICK_UPDOWN = 4
+self.RIGHT_STICK_LEFTRIGHT = 3
+self.LEFT_STICKT_BUTTON = 317
+self.RIGHT_STICK_BUTTON = 318
+
+## ARROW ##
+self.UPDOWN = 17
+self.getKey_UPDOWN = 0
+self.LEFTRIGHT = 16
+self.getKey_LEFTRIGHT = 0
+
+## BUTTON ##
+self.A = 304
+self.getKey_A = 0
+self.B = 305
+self.getKey_B = 0
+
+        self.X = 307
+        self.getKey_X = 0
+
+        self.Y = 308
+        self.getKey_Y = 0
+
+        self.LB = 310
+        self.getKey_LB = 0
+
+        self.RB = 311
+        self.getKey_RB = 0
+
+        self.BACK = 314
+        self.getKey_BACK = 0
+
+        self.START = 315
+        self.getKey_START = 0
+
+        ## TRIGER ##
+        self.LT = 2
+        self.getKey_LT = 0
+
+        self.RT = 5
+        self.getKey_RT = 0

@@ -1,0 +1,11 @@
+<launch>
+    
+    <node pkg="topic_tutorial" type = "gps_imu_parser.py" name = "gps_imu_parser" />
+    <node pkg="topic_tutorial" type = "c_global_path_planning.py" name = "global_path"/>
+    <node pkg="topic_tutorial" type = "h_acc.py" name = "localPathPlanning"/>
+    <!-- <node pkg="topic_tutorial" type = "8_advanced_purpursuit.py" name = "pure_pursuit"/> -->
+    <node pkg="topic_tutorial" type = "pure_pursit.py" name = "pure_pursuit"/>
+
+    <node pkg="rviz" type = "rviz" name = "rviz" args = "-d $(find topic_tutorial)/rviz/test.rviz"/>
+
+</launch>

@@ -1,0 +1,8 @@
+prefix=/home/nvidia/catkin_ws/devel
+
+Name: cardriver
+Description: Description of cardriver
+Version: 0.0.1
+Cflags: -I/home/nvidia/catkin_ws/devel/include
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="evasion_algorithm" type="vehicleSpec.py" name="vehicle_spec_load"/>
+    <node pkg="evasion_algorithm" type="wayObstacle.py" name="obj_filter" output = "screen"/>
+    <node pkg="evasion_algorithm" type="Follwing_gap.py" name="FollowTheGap" output = "screen"/>
+    <node pkg="evasion_algorithm" type="pure_pursit.py" name="pure_pursuit"/>
+    <node pkg="evasion_algorithm" type="state_Lattice.py" name="state_lattice_planner"/>
+</launch>
