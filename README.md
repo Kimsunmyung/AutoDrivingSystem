@@ -46,8 +46,6 @@ PW : gnss
 
 Mointing Point : KUSN-RTCM31
     
-    
-    
 > 공용 계정
 
 ID : mayakpari
@@ -68,5 +66,9 @@ RTK 실행
 roslaunch ublox_gps ublox_device.launch
 
 
+
 IMU센서가 전동스쿠터의 철판의 간섭으로 작동하지 않아서, GPS변위값에 대한 각도를 구하여 전동스쿠터의 방향을 적용하였다.
 https://github.com/Kimsunmyung/AutoDrivingSystem/blob/master/src/ublox_c94_m8p/src/BJ_odom.py
+
+global path를 제작하여 GPS기반으로 주행하였다.
+https://youtu.be/FLcmF3aAJhw
