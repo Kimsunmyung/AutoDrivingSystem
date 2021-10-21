@@ -56,7 +56,7 @@ PW : 1q2w3e4r!
 
 
 
-1. 작동코드
+1. 작동코드 참고
 
 ros-agriculture/ublox_f9p
 https://github.com/ros-agriculture/ublox_f9p
@@ -66,3 +66,7 @@ https://github.com/ros-agriculture/ntrip_ros
 
 RTK 실행
 roslaunch ublox_gps ublox_device.launch
+
+
+IMU센서가 전동스쿠터의 철판의 간섭으로 작동하지 않아서, GPS변위값에 대한 각도를 구하여 전동스쿠터의 방향을 적용하였다.
+https://github.com/Kimsunmyung/AutoDrivingSystem/blob/master/src/ublox_c94_m8p/src/BJ_odom.py
